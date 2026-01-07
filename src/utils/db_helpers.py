@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 class DatabaseHelper:
     def __init__(self, db_path="output/asana_simulation.sqlite"):
         self.db_path = db_path
-        # --- THE FIX: Create the folder if it doesn't exist ---
+        # ---  Create the folder if it doesn't exist ---
         db_dir = os.path.dirname(os.path.abspath(self.db_path))
         if not os.path.exists(db_dir):
             os.makedirs(db_dir)
