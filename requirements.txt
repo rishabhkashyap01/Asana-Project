@@ -1,0 +1,8 @@
+# Core Database and Environment
+python-dotenv==1.0.1
+
+# Data Generation
+faker==33.3.0
+
+# AI Integration
+openai==1.59.3

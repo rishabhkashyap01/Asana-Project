@@ -1,0 +1,25 @@
+# API Keys and Secrets
+.env
+
+# Database Output
+# We exclude the actual .sqlite file because it can be very large 
+# and contains auto-generated data.
+output/*.sqlite
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE Settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
