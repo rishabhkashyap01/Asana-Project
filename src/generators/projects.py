@@ -24,7 +24,6 @@ class ProjectGenerator:
             ]
         }
 
-    # --- RENAME THIS METHOD ---
     def generate_for_team(self, team_id, department):
         """
         Generates a realistic set of projects for a specific team.
